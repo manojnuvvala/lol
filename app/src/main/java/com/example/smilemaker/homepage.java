@@ -14,7 +14,7 @@ public class homepage extends AppCompatActivity {
         setContentView(R.layout.activity_homepage);
     }
     public void log (View view){
-        Intent intent = new Intent(getBaseContext(),loginActivity.class);
+        Intent intent = new Intent(getBaseContext(),MainActivity.class);
         startActivity(intent);
     }
 
@@ -24,5 +24,7 @@ public class homepage extends AppCompatActivity {
     }
 
     public void morejokes(View view) {
+        Intent intent2 = new Intent(getBaseContext(),viewAllJokes.class);
+        startActivity(intent2);
     }
 }
