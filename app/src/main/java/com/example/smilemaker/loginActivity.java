@@ -1,6 +1,7 @@
 package com.example.smilemaker;
 
 
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -17,6 +18,11 @@ public class loginActivity extends AppCompatActivity {
     public void signup (View view){
         Intent intent = new Intent(getBaseContext(),loginActivity.class);
         startActivity(intent);
+
+    }
+    public void back(View view){
+        Intent intent1 = new Intent(getBaseContext(),MainActivity.class);
+        startActivity(intent1);
     }
 }
 
