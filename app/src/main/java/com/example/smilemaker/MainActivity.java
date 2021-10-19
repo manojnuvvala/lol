@@ -17,4 +17,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(getBaseContext(),loginActivity.class);
         startActivity(intent);
     }
+
+    public void signinid(View view){
+        Intent intent1 = new Intent(getBaseContext(),homepage.class);
+        startActivity(intent1);
+    }
+
 }

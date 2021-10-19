@@ -24,5 +24,10 @@ public class loginActivity extends AppCompatActivity {
         Intent intent1 = new Intent(getBaseContext(),MainActivity.class);
         startActivity(intent1);
     }
+    public void registred(View view){
+        Intent intent2 = new Intent(getBaseContext(),homepage.class);
+        startActivity(intent2);
+    }
+
 }
 
