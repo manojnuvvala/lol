@@ -7,7 +7,7 @@
     android:background="@drawable/reg">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/createusername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Create user name"
@@ -35,7 +35,7 @@
         app:layout_constraintVertical_bias="0.168" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/regpassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Enter password"
@@ -78,7 +78,7 @@
         app:layout_constraintVertical_bias="0.938" />
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/reggender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Gender"
@@ -90,6 +90,7 @@
         app:layout_constraintVertical_bias="0.418" />
 
     <RadioGroup
+        android:id="@+id/radio"
         android:layout_width="212dp"
         android:layout_height="97dp"
         app:flow_horizontalAlign="center"
@@ -101,13 +102,13 @@
         app:layout_constraintVertical_bias="0.417">
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/radioButtonfemale"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="female" />
 
         <RadioButton
-            android:id="@+id/radioButton3"
+            android:id="@+id/radioButtonmale"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Male" />
@@ -129,7 +130,7 @@
         app:layout_constraintVertical_bias="0.553" />
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/regemail"
         android:layout_width="51dp"
         android:layout_height="28dp"
         android:text="Email"
